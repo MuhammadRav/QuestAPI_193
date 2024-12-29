@@ -2,6 +2,7 @@ package com.example.meet12.repository
 
 import com.example.meet12.model.Mahasiswa
 import com.example.meet12.service.MahasiswaService
+import okio.IOException
 
 interface MahasiswaRepository {
     suspend fun getMahasiswa(): List<Mahasiswa>
