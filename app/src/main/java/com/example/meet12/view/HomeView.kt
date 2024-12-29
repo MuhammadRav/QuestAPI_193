@@ -42,6 +42,7 @@ import com.example.meet12.model.Mahasiswa
 import com.example.meet12.navigasi.DestinasiNavigasi
 import com.example.meet12.viewModel.HomeUiState
 import com.example.meet12.viewModel.HomeViewModel
+import com.example.meet12.viewModel.PenyediaViewModel
 
 object DestinasiHome : DestinasiNavigasi{
     override val route = "home"
@@ -54,8 +55,7 @@ fun HomeScreen(
   navigateToItemEntry: () -> Unit,
   modifier: Modifier = Modifier,
   onDetailClick: (String) -> Unit = {},
-  viewModel: HomeViewModel = viewModel()
-//      factory = PenyediaViewModel.Factory
+  viewModel: HomeViewModel = viewModel(factory = PenyediaViewModel.Factory)
 ){
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior()
     Scaffold (
