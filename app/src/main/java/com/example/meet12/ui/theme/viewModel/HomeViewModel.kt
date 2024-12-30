@@ -1,4 +1,4 @@
-package com.example.meet12.viewModel
+package com.example.meet12.ui.theme.viewModel
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf

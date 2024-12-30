@@ -1,4 +1,4 @@
-package com.example.meet12.viewModel
+package com.example.meet12.ui.theme.viewModel
 
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.CreationExtras
@@ -6,8 +6,8 @@ import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
 import com.example.meet12.MahasiswaApplications
 
-class PenyediaViewModel {
-    val Factory: ViewModelProvider.Factory = viewModelFactory {
+object PenyediaViewModel {
+    val Factory = viewModelFactory {
         initializer {
             HomeViewModel(aplikasiMahasiswa().container.mahasiswaRepository)
         }

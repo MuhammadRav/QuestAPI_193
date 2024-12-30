@@ -1,4 +1,4 @@
-package com.example.meet12.view
+package com.example.meet12.ui.theme.view
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -40,9 +40,9 @@ import com.example.meet12.CostumeTopAppBar
 import com.example.meet12.R
 import com.example.meet12.model.Mahasiswa
 import com.example.meet12.navigasi.DestinasiNavigasi
-import com.example.meet12.viewModel.HomeUiState
-import com.example.meet12.viewModel.HomeViewModel
-import com.example.meet12.viewModel.PenyediaViewModel
+import com.example.meet12.ui.theme.viewModel.HomeUiState
+import com.example.meet12.ui.theme.viewModel.HomeViewModel
+import com.example.meet12.ui.theme.viewModel.PenyediaViewModel
 
 object DestinasiHome : DestinasiNavigasi{
     override val route = "home"
@@ -96,11 +96,11 @@ fun HomeScreen(
 
 @Composable
 fun HomeStatus(
-  homeUiState: HomeUiState,
-  retryAction: () -> Unit,
-  modifier: Modifier = Modifier,
-  onDeleteClick: (Mahasiswa) -> Unit = {},
-  onDetailClick: (String) -> Unit
+    homeUiState: HomeUiState,
+    retryAction: () -> Unit,
+    modifier: Modifier = Modifier,
+    onDeleteClick: (Mahasiswa) -> Unit = {},
+    onDetailClick: (String) -> Unit
 ){
     when(homeUiState){
         is HomeUiState.Loading -> OnLoading(modifier = modifier.fillMaxSize())

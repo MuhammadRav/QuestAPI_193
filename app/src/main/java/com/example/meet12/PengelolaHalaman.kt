@@ -6,10 +6,10 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.meet12.view.DestinasiEntry
-import com.example.meet12.view.DestinasiHome
-import com.example.meet12.view.EntryMhsScreen
-import com.example.meet12.view.HomeScreen
+import com.example.meet12.ui.theme.view.DestinasiEntry
+import com.example.meet12.ui.theme.view.DestinasiHome
+import com.example.meet12.ui.theme.view.EntryMhsScreen
+import com.example.meet12.ui.theme.view.HomeScreen
 
 @Composable
 fun PengelolaHalaman(navController: NavHostController = rememberNavController()){

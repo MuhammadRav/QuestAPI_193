@@ -1,4 +1,4 @@
-package com.example.meet12.view
+package com.example.meet12.ui.theme.view
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -23,10 +23,10 @@ import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.meet12.CostumeTopAppBar
 import com.example.meet12.navigasi.DestinasiNavigasi
-import com.example.meet12.viewModel.InsertUiEvent
-import com.example.meet12.viewModel.InsertUiState
-import com.example.meet12.viewModel.InsertViewModel
-import com.example.meet12.viewModel.PenyediaViewModel
+import com.example.meet12.ui.theme.viewModel.InsertUiEvent
+import com.example.meet12.ui.theme.viewModel.InsertUiState
+import com.example.meet12.ui.theme.viewModel.InsertViewModel
+import com.example.meet12.ui.theme.viewModel.PenyediaViewModel
 import kotlinx.coroutines.launch
 
 object DestinasiEntry: DestinasiNavigasi{
@@ -100,10 +100,10 @@ fun EntryBody(
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun FormInput(
-  insertUiEvent: InsertUiEvent,
-  modifier: Modifier = Modifier,
-  onValueChange: (InsertUiEvent) -> Unit = {},
-  enabled: Boolean = true
+    insertUiEvent: InsertUiEvent,
+    modifier: Modifier = Modifier,
+    onValueChange: (InsertUiEvent) -> Unit = {},
+    enabled: Boolean = true
 ){
     Column (
         modifier = modifier,
