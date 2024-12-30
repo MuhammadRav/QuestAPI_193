@@ -10,9 +10,10 @@ import com.example.meet12.repository.MahasiswaRepository
 import com.example.meet12.ui.view.DestinasiUpdate
 import kotlinx.coroutines.launch
 
-class UpdateViewModel(private val mhs: MahasiswaRepository,
-    savedStateHandle: SavedStateHandle
-    ) : ViewModel() {
+class UpdateViewModel(
+    savedStateHandle: SavedStateHandle,
+    private val mhs: MahasiswaRepository
+) : ViewModel() {
     var UpdateUiState by mutableStateOf(InsertUiState())
         private set
 
