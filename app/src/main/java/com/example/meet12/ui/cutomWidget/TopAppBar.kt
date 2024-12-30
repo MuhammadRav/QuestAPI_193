@@ -1,4 +1,4 @@
-package com.example.meet12
+package com.example.meet12.ui.cutomWidget
 
 import androidx.compose.foundation.clickable
 import androidx.compose.material.icons.Icons

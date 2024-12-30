@@ -1,4 +1,4 @@
-package com.example.meet12.ui.theme.viewModel
+package com.example.meet12.ui.viewModel
 
 import android.provider.ContactsContract.Intents.Insert
 import androidx.compose.runtime.getValue

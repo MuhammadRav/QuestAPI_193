@@ -1,4 +1,4 @@
-package com.example.meet12.ui.theme.view
+package com.example.meet12.ui.view
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
@@ -36,13 +36,13 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.meet12.CostumeTopAppBar
+import com.example.meet12.ui.cutomWidget.CostumeTopAppBar
 import com.example.meet12.R
 import com.example.meet12.model.Mahasiswa
 import com.example.meet12.navigasi.DestinasiNavigasi
-import com.example.meet12.ui.theme.viewModel.HomeUiState
-import com.example.meet12.ui.theme.viewModel.HomeViewModel
-import com.example.meet12.ui.theme.viewModel.PenyediaViewModel
+import com.example.meet12.ui.viewModel.HomeUiState
+import com.example.meet12.ui.viewModel.HomeViewModel
+import com.example.meet12.ui.viewModel.PenyediaViewModel
 
 object DestinasiHome : DestinasiNavigasi{
     override val route = "home"

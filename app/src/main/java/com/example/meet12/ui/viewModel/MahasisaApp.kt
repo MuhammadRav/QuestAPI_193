@@ -1,4 +1,4 @@
-package com.example.meet12.ui.theme.viewModel
+package com.example.meet12.ui.viewModel
 
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -9,7 +9,7 @@ import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
-import com.example.meet12.PengelolaHalaman
+import com.example.meet12.navigasi.PengelolaHalaman
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

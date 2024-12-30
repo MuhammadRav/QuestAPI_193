@@ -1,4 +1,4 @@
-package com.example.meet12.ui.theme.viewModel
+package com.example.meet12.ui.viewModel
 
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewmodel.CreationExtras

@@ -1,4 +1,4 @@
-package com.example.meet12.ui.theme.view
+package com.example.meet12.ui.view
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -21,12 +21,12 @@ import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.meet12.CostumeTopAppBar
+import com.example.meet12.ui.cutomWidget.CostumeTopAppBar
 import com.example.meet12.navigasi.DestinasiNavigasi
-import com.example.meet12.ui.theme.viewModel.InsertUiEvent
-import com.example.meet12.ui.theme.viewModel.InsertUiState
-import com.example.meet12.ui.theme.viewModel.InsertViewModel
-import com.example.meet12.ui.theme.viewModel.PenyediaViewModel
+import com.example.meet12.ui.viewModel.InsertUiEvent
+import com.example.meet12.ui.viewModel.InsertUiState
+import com.example.meet12.ui.viewModel.InsertViewModel
+import com.example.meet12.ui.viewModel.PenyediaViewModel
 import kotlinx.coroutines.launch
 
 object DestinasiEntry: DestinasiNavigasi{
