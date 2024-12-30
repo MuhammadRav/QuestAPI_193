@@ -11,9 +11,9 @@ interface MahasiswaRepository {
 
     suspend fun updateMahasiswa(nim: String, mahasiswa: Mahasiswa)
 
-    suspend fun  deleteMahasiswa(nim: String)
+    suspend fun deleteMahasiswa(nim: String)
 
-    suspend fun  getMahasiswabyNim(nim: String): Mahasiswa
+    suspend fun getMahasiswabyNim(nim: String): Mahasiswa
 }
 
 class NetworkMahasiswaRepository(
